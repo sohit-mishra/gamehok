@@ -28,7 +28,7 @@ export default function GameList() {
   }, []);
 
   if (loading) {
-    return <p className="text-gray-400">Loading games...</p>;
+    return <p className="text-gray-400">{" "}</p>;
   }
 
   if (error) {

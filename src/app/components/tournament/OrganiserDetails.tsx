@@ -34,7 +34,7 @@ export default function OrganiserDetails() {
             transition: { staggerChildren: 0.2 },
           },
         }}
-        className="bg-black text-white px-6 py-6 space-y-0"
+        className="bg-black text-white px-4 py-6 space-y-0"
       >
       
         <motion.div
@@ -58,7 +58,7 @@ export default function OrganiserDetails() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#01B752] hover:bg-[#019944] text-white px-4 py-2 rounded-lg"
+            className="bg-[#002E14] hover:bg-[#019944] text-white px-4 py-2 rounded-lg"
           >
             Follow
           </motion.button>
@@ -83,11 +83,11 @@ export default function OrganiserDetails() {
               transition: { staggerChildren: 0.15 },
             },
           }}
-          className="grid grid-cols-2 gap-2 px-2"
+          className="grid grid-cols-2 gap-2 px-1"
         >
           {[
             {
-              href: "tel:9890987754",
+              href: "tel:+919890987754",
               icon: "/phone.svg",
               text: "9890987754",
               align: "text-left",
@@ -99,7 +99,7 @@ export default function OrganiserDetails() {
               align: "justify-end",
             },
             {
-              href: "tel:9890987754",
+              href: "https://wa.me/919890987754",
               icon: "/whatsapp.svg",
               text: "9890987754",
               align: "text-left",

@@ -22,7 +22,7 @@ export default function TournamentPrize() {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="max-w-3xl mx-auto py-6 space-y-0 rounded-md"
+      className="max-w-6xl mx-auto py-6 space-y-0 rounded-md"
     >
     
       <motion.div

@@ -29,7 +29,7 @@ export default function TournamentList() {
     fetchData();
   }, []);
 
-  if (loading) return <p className="text-gray-400">Loading tournaments...</p>;
+  if (loading) return <p className="text-gray-400">{" "}</p>;
   if (error) return <p className="text-red-500">{error}</p>;
 
   return (
